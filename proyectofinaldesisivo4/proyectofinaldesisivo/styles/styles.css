@@ -1,0 +1,170 @@
+
+
+
+
+.evolucion{
+
+    text-align:left;
+    width: 500px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+ 
+.titu1{
+
+    text-align: center;
+    color: crimson;
+    
+
+}
+
+.ti1{
+    color: crimson;
+}
+
+.historia{
+
+    color: crimson;
+}
+
+.parraf1{
+
+    font-size: 20px;
+    
+    
+}
+
+
+.h2{
+
+    color: crimson;
+    padding: 80px 0px 0px 0px;
+    text-align: center;
+}
+
+
+
+.ppa{
+
+    font-size: 20px;
+}
+
+.img1{
+
+    text-align: center;
+
+}
+
+.img44 {
+
+    text-align: center;
+}
+
+.pp2 {
+
+    padding: 30px 0px 30px 0px;
+}
+
+.pa3 {
+    padding: 30px 0px 30px 0px;
+}
+
+
+
+/* General */
+body {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1511512578047-dfb367046420');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Títulos */
+.section-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.custom-card {
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    color: white;
+}
+
+
+/* NAVBAR */
+.custom-navbar {
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+}
+
+/* HERO PRO */
+.hero-pro {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+    url('https://images.unsplash.com/photo-1511512578047-dfb367046420');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TITULOS */
+.section-title {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* CARDS PRO */
+.pro-card {
+    padding: 25px;
+    border-radius: 20px;
+    transition: 0.4s;
+    background: #111;
+    color: white;
+}
+
+.pro-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px #0d6efd;
+}
+
+/* ESTADISTICAS */
+.stat-box {
+    padding: 20px;
+    background: #0d6efd;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background: black;
+    color: white;
+}
